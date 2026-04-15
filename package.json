@@ -1,0 +1,24 @@
+{
+  "author": "Steijn Veer",
+  "bin": {
+    "create-fbr-plugin": "./bin/index.js"
+  },
+  "description": "Create a new fbr plugin. (for @steijnveer/file-based-router)",
+  "files": [
+    "bin",
+    "template"
+  ],
+  "keywords": [
+    "file-based-router",
+    "typescript",
+    "fbr",
+    "plugin",
+    "create",
+    "template",
+    "scaffold"
+  ],
+  "license": "MIT",
+  "name": "@steijnveer/create-fbr-plugin",
+  "type": "module",
+  "version": "0.0.0"
+}

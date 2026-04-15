@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@steijnveer/file-based-router": "^0.0.9"
+  },
+  "description": "fbr plugin with TypeScript support",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "fbr",
+    "file-based",
+    "plugin",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "my-fbr-plugin",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.0"
+}

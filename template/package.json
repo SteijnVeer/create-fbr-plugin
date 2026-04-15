@@ -27,7 +27,6 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "name": "my-fbr-plugin",
-  "private": true,
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"

@@ -1,12 +1,10 @@
-import type { Server } from '@steijnveer/file-based-router';
-import '@steijnveer/file-based-router/utils';
-import type { MyPluginConfig } from './types';
+import './types';
 
-function myPlugin({  }: MyPluginConfig = {}) {
-  return (server: Server) => {
-    // Initialize your plugin here, using the server instance
-    log.debug('My plugin has been initialized');
-  };
+function myPlugin() {
+  // Initialize your plugin here, using the server instance (Fbr.server) and the configuration (Fbr.config) if needed
+  // Fbr.server.someMethod = () => { ... };
+  // const someValue = Fbr.config.myPlugin?.someOption ?? 'default value';
+  log.debug('My plugin has been initialized');
 }
 
 

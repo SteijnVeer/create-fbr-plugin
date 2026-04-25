@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@steijnveer/file-based-router": "^0.0.9"
+    "@steijnveer/file-based-router": "^0.0.10"
   },
   "description": "fbr plugin with TypeScript support",
   "devDependencies": {
@@ -33,5 +33,5 @@
   },
   "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "0.0.0"
+  "version": "0.0.10"
 }

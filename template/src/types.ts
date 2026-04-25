@@ -1,18 +1,19 @@
-import '@steijnveer/file-based-router/utils';
-
-interface MyPluginConfig {
-  // Define any configuration options for your plugin here
-  [option: string]: never;
-}
-
-declare module '@steijnveer/file-based-router' {
-  interface Server {
-    /*
+declare global {
+  namespace Fbr {
+    interface Server {
+      /*
       * Add custom properties or methods to the Server interface here
-    */
+      */
+    }
+    interface Config {
+      /*
+      * Add custom properties to the Config interface here
+      * These should be optional!
+      */
+    }
   }
 }
 
 
-export type { MyPluginConfig };
+export type { };
 
